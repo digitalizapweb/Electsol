@@ -2,32 +2,30 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Meta Tags -->
+
+    <!-- SEO -->
     <meta name="description" content="Elecsol - Servicios eléctricos profesionales y certificados. Instalaciones eléctricas, proyectos, paneles solares y emergencias 24/7. Electricista certificado SEC.">
-    <meta name="keywords" content="electricista, servicios eléctricos, instalaciones eléctricas, paneles solares, certificación SEC, emergencias eléctricas, proyectos eléctricos">
+    <meta name="keywords" content="electricista, servicios eléctricos, instalaciones eléctricas, paneles solares, certificación SEC, emergencias eléctricas, proyectos eléctricos, tableros eléctricos">
     <meta name="author" content="Elecsol">
     <meta name="robots" content="index, follow">
-    
-    <!-- Open Graph / Facebook -->
+    <meta name="theme-color" content="#0A2647">
+
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="Elecsol - Servicios Eléctricos Profesionales">
     <meta property="og:description" content="Tu electricista de confianza. Instalaciones, proyectos y soluciones solares con certificación SEC.">
-    <meta property="og:image" content="img/favicon-16x16.png">
-    
-    <!-- Twitter -->
+    <meta property="og:image" content="img/trabajos/trabajo-4.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="Elecsol - Servicios Eléctricos Profesionales">
     <meta property="twitter:description" content="Tu electricista de confianza. Instalaciones, proyectos y soluciones solares.">
-    
-    <!-- Stylesheets -->
+
+    <!-- Estilos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -35,233 +33,253 @@
     <link rel="icon" type="image/x-icon" href="img/favicon-16x16.png">
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="fixed-top">
-    <nav class="navbar navbar-expand-lg py-3">
-        <div class="container">
-          <a class="navbar-brand brand-logo" href="#">
-            <i class="fa-solid fa-bolt me-2"></i>
-            <span class="brand-name">ELECSOL</span>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link bread smooth-scroll" aria-current="page" href="#nav">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link bread smooth-scroll" href="#servicio">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link bread smooth-scroll" href="#beneficios">¿Por qué Elegirnos?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link bread smooth-scroll" href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- Under Navbar -->
-<section class="under_nav py-2">
+
+<!-- ============ NAVEGACIÓN ============ -->
+<header class="site-header fixed-top">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
-        <div class="d-flex justify-content-between align-items-center flex-wrap">
-            <div class="contact-info">
-                <i class="fa-solid fa-envelope me-2"></i>
-                <span>feernandoarias@gmail.com</span>
-            </div>
-            <div class="contact-info">
-                <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,quisiera%20consultar%20sobre:" target="_blank" rel="noopener noreferrer" class="whatsapp-link">
-                    <i class="fa-brands fa-whatsapp me-2"></i>
-                    <span>+569 94902336</span>
-                </a>
-            </div>
-            <div class="contact-info">
-                <i class="fa-solid fa-clock me-2"></i>
-                <span>Atención 24/7 Emergencias</span>
-            </div>
-        </div>
+      <a class="navbar-brand brand-logo" href="#inicio">
+        <i class="fa-solid fa-bolt"></i>
+        <span class="brand-name">ELECSOL</span>
+      </a>
+
+      <div class="nav-quick d-flex d-lg-none ms-auto me-2">
+        <a href="tel:+56994902336" class="btn-icon" aria-label="Llamar"><i class="fa-solid fa-phone"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,quisiera%20consultar%20sobre:" target="_blank" rel="noopener noreferrer" class="btn-icon btn-icon-wa" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#servicio">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#trabajos">Trabajos</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#beneficios">¿Por qué Elegirnos?</a></li>
+          <li class="nav-item"><a class="nav-link smooth-scroll" href="#contacto">Contacto</a></li>
+          <li class="nav-item d-none d-lg-block ms-lg-3">
+            <a href="tel:+56994902336" class="btn btn-outline-light btn-sm nav-cta"><i class="fa-solid fa-phone me-2"></i>+569 9490 2336</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</section>
+  </nav>
+</header>
+
+<!-- ============ HERO CON MOSAICO DE TRABAJOS ============ -->
+<section id="inicio" class="hero">
+  <div class="hero-mosaic" aria-hidden="true">
+    <img src="img/trabajos/trabajo-4-sm.jpg" alt="">
+    <img src="img/trabajos/trabajo-8-sm.jpg" alt="">
+    <img src="img/trabajos/trabajo-2-sm.jpg" alt="">
+    <img src="img/trabajos/trabajo-9-sm.jpg" alt="">
+    <img src="img/trabajos/trabajo-7-sm.jpg" alt="">
+    <img src="img/trabajos/trabajo-11-sm.jpg" alt="">
+    <img src="img/trabajos/trabajo-3-sm.jpg" alt="">
+    <img src="img/trabajos/trabajo-10-sm.jpg" alt="">
   </div>
-    <!-- Hero Section -->
-<section id="nav" class="hero_section">
-    <div class="hero-overlay"></div>
-    <div class="container hero_text">
-        <div class="row align-items-center">
-            <div class="col-lg-8" data-aos="fade-right" data-aos-duration="1000">
-                <h1 class="display-1 fw-bold mb-4">ELECSOL</h1>
-                <p class="hero-subtitle mb-4">Tu Experto en Soluciones Eléctricas y Energía Solar</p>
-                <p class="lead mb-5">Instalaciones certificadas, proyectos profesionales y atención de emergencias 24/7. Más de 10 años de experiencia respaldados por certificación SEC.</p>
-                <div class="hero-buttons">
-                    <a href="#contacto" class="btn btn-primary btn-lg me-3 smooth-scroll">
-                        <i class="fa-solid fa-paper-plane me-2"></i>Solicitar Cotización
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,tengo%20una%20emergencia%20eléctrica" target="_blank" class="btn btn-danger btn-lg">
-                        <i class="fa-solid fa-circle-exclamation me-2"></i>Emergencia
-                    </a>
-                </div>
-            </div>
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content">
+    <div class="row">
+      <div class="col-lg-7" data-aos="fade-up">
+        <span class="hero-eyebrow"><i class="fa-solid fa-shield-halved me-2"></i>Electricista certificado SEC</span>
+        <h1 class="hero-title">Soluciones eléctricas y <span>energía solar</span> en las que puedes confiar</h1>
+        <p class="hero-lead">Instalaciones certificadas, proyectos profesionales y atención de emergencias 24/7. Más de 10 años de experiencia respaldados por certificación SEC.</p>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn btn-gold btn-lg smooth-scroll">
+            <i class="fa-solid fa-paper-plane me-2"></i>Solicitar Cotización
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,tengo%20una%20emergencia%20eléctrica" target="_blank" rel="noopener noreferrer" class="btn btn-danger btn-lg">
+            <i class="fa-solid fa-circle-exclamation me-2"></i>Emergencia 24/7
+          </a>
         </div>
+        <ul class="hero-trust">
+          <li><i class="fa-solid fa-certificate"></i> Autorizado SEC</li>
+          <li><i class="fa-solid fa-clock"></i> Emergencias 24/7</li>
+          <li><i class="fa-solid fa-award"></i> +10 años de experiencia</li>
+        </ul>
+      </div>
     </div>
-    <div class="scroll-indicator">
-        <i class="fa-solid fa-chevron-down"></i>
-    </div>
+  </div>
 </section>
 
-<!-- Stats Section -->
-<section class="stats-section py-5">
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="stat-card">
-                    <i class="fa-solid fa-users stat-icon"></i>
-                    <h3 class="stat-number">500+</h3>
-                    <p class="stat-label">Clientes Satisfechos</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="stat-card">
-                    <i class="fa-solid fa-certificate stat-icon"></i>
-                    <h3 class="stat-number">10+</h3>
-                    <p class="stat-label">Años de Experiencia</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="stat-card">
-                    <i class="fa-solid fa-clock stat-icon"></i>
-                    <h3 class="stat-number">24/7</h3>
-                    <p class="stat-label">Atención Emergencias</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-delay="400">
-                <div class="stat-card">
-                    <i class="fa-solid fa-star stat-icon"></i>
-                    <h3 class="stat-number">100%</h3>
-                    <p class="stat-label">Certificado SEC</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Servicios -->
-<section id="servicio" class="py-5">
+<!-- ============ ESTADÍSTICAS ============ -->
+<section class="stats-section">
   <div class="container">
-    <div class="section-header text-center mb-5" data-aos="fade-up">
+    <div class="stats-card" data-aos="fade-up">
+      <div class="stat">
+        <i class="fa-solid fa-users stat-icon"></i>
+        <div><span class="stat-number" data-target="500" data-suffix="+">500+</span><span class="stat-label">Clientes satisfechos</span></div>
+      </div>
+      <div class="stat">
+        <i class="fa-solid fa-certificate stat-icon"></i>
+        <div><span class="stat-number" data-target="10" data-suffix="+">10+</span><span class="stat-label">Años de experiencia</span></div>
+      </div>
+      <div class="stat">
+        <i class="fa-solid fa-clock stat-icon"></i>
+        <div><span class="stat-number">24/7</span><span class="stat-label">Emergencias</span></div>
+      </div>
+      <div class="stat">
+        <i class="fa-solid fa-star stat-icon"></i>
+        <div><span class="stat-number" data-target="100" data-suffix="%">100%</span><span class="stat-label">Certificado SEC</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS ============ -->
+<section id="servicio" class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-kicker">Servicios</span>
       <h2 class="section-title">Nuestros Servicios</h2>
       <p class="section-subtitle">Soluciones eléctricas profesionales adaptadas a tus necesidades</p>
-      <div class="title-divider"></div>
     </div>
+
     <div class="row g-4">
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="50">
+        <article class="service-card">
+          <div class="service-media"><img src="img/instalaciones1.png" alt="Técnico revisando un tablero eléctrico"></div>
+          <div class="service-body">
+            <span class="service-icon"><i class="fa-solid fa-plug-circle-bolt"></i></span>
+            <h3 class="service-title">Instalaciones Eléctricas</h3>
+            <ul class="service-list">
+              <li>Instalaciones domiciliarias</li>
+              <li>Instalaciones industriales</li>
+              <li>Atención de emergencias</li>
+              <li>Certificación TE1 - TE2 - TE4</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-card h-100">
-          <div class="service-icon">
-            <i class="fa-solid fa-plug-circle-bolt"></i>
-          </div>
-          <img src="img/instalaciones1.png" class="card-img-top service-img" alt="Instalaciones Eléctricas">
-          <div class="card-body">
-            <h5 class="service-title">Instalaciones Eléctricas</h5>
+        <article class="service-card">
+          <div class="service-media"><img src="img/Planos1.png" alt="Planos eléctricos y herramientas de medición"></div>
+          <div class="service-body">
+            <span class="service-icon"><i class="fa-solid fa-compass-drafting"></i></span>
+            <h3 class="service-title">Proyectos Eléctricos</h3>
             <ul class="service-list">
-              <li><i class="fa-solid fa-check"></i> Instalaciones Domiciliarias</li>
-              <li><i class="fa-solid fa-check"></i> Instalaciones Industriales</li>
-              <li><i class="fa-solid fa-check"></i> Atención de Emergencias</li>
-              <li><i class="fa-solid fa-check"></i> Certificación TE1 - TE2 - TE4</li>
+              <li>Diseño y planificación</li>
+              <li>Planos técnicos</li>
+              <li>Mallas a tierra</li>
+              <li>Mediciones RIC-19</li>
             </ul>
           </div>
-        </div>
+        </article>
       </div>
+
+      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
+        <article class="service-card featured">
+          <span class="featured-badge">Popular</span>
+          <div class="service-media"><img src="img/solar1.png" alt="Instalación de paneles solares"></div>
+          <div class="service-body">
+            <span class="service-icon"><i class="fa-solid fa-solar-panel"></i></span>
+            <h3 class="service-title">Soluciones Solares</h3>
+            <ul class="service-list">
+              <li>Paneles solares</li>
+              <li>Termo calentadores</li>
+              <li>Ahorro energético</li>
+              <li>Energía sustentable</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
       <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-card h-100">
-          <div class="service-icon">
-            <i class="fa-solid fa-drafting-compass"></i>
-          </div>
-          <img src="img/Planos1.png" class="card-img-top service-img" alt="Proyectos Eléctricos">
-          <div class="card-body">
-            <h5 class="service-title">Proyectos Eléctricos</h5>
+        <article class="service-card">
+          <div class="service-media service-media-logo"><img src="img/sec.png" alt="Sello de autorización de la Superintendencia de Electricidad y Combustibles"></div>
+          <div class="service-body">
+            <span class="service-icon"><i class="fa-solid fa-shield-halved"></i></span>
+            <h3 class="service-title">Certificaciones SEC</h3>
             <ul class="service-list">
-              <li><i class="fa-solid fa-check"></i> Diseño y Planificación</li>
-              <li><i class="fa-solid fa-check"></i> Planos Técnicos</li>
-              <li><i class="fa-solid fa-check"></i> Mallas a Tierra</li>
-              <li><i class="fa-solid fa-check"></i> Mediciones RIG-19</li>
+              <li>Tramitación compañía eléctrica</li>
+              <li>Certificaciones SEC</li>
+              <li>Equipos certificados</li>
+              <li>Cumplimiento normativa</li>
             </ul>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-card h-100 featured">
-          <div class="featured-badge">Popular</div>
-          <div class="service-icon">
-            <i class="fa-solid fa-solar-panel"></i>
-          </div>
-          <img src="img/solar1.png" class="card-img-top service-img" alt="Energía Solar">
-          <div class="card-body">
-            <h5 class="service-title">Soluciones Solares</h5>
-            <ul class="service-list">
-              <li><i class="fa-solid fa-check"></i> Paneles Solares</li>
-              <li><i class="fa-solid fa-check"></i> Termo Calentadores</li>
-              <li><i class="fa-solid fa-check"></i> Ahorro Energético</li>
-              <li><i class="fa-solid fa-check"></i> Energía Sustentable</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-card h-100">
-          <div class="service-icon">
-            <i class="fa-solid fa-shield-halved"></i>
-          </div>
-          <img src="img/sec.png" class="card-img-top service-img" alt="Certificación SEC">
-          <div class="card-body">
-            <h5 class="service-title">Certificaciones SEC</h5>
-            <ul class="service-list">
-              <li><i class="fa-solid fa-check"></i> Tramitación Compañía Eléctrica</li>
-              <li><i class="fa-solid fa-check"></i> Certificaciones SEC</li>
-              <li><i class="fa-solid fa-check"></i> Equipos Certificados</li>
-              <li><i class="fa-solid fa-check"></i> Cumplimiento Normativa</li>
-            </ul>
-          </div>
-        </div>
+        </article>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Benefits Section -->
-<section id="beneficios" class="benefits-section py-5">
+<!-- ============ TRABAJOS REALIZADOS ============ -->
+<section id="trabajos" class="section section-light">
   <div class="container">
-    <div class="section-header text-center mb-5" data-aos="fade-up">
-      <h2 class="section-title text-white">¿Por Qué Elegir Elecsol?</h2>
-      <p class="section-subtitle text-white">Calidad, seguridad y profesionalismo en cada proyecto</p>
-      <div class="title-divider"></div>
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-kicker">Portafolio</span>
+      <h2 class="section-title">Trabajos Realizados</h2>
+      <p class="section-subtitle">Postes, tableros, cámaras de seguridad e instalaciones en altura. Toca una foto para verla en grande.</p>
+    </div>
+
+    <div class="works-grid" data-aos="fade-up">
+      <button class="work tall" data-full="img/trabajos/trabajo-4.jpg"><img src="img/trabajos/trabajo-4-sm.jpg" alt="Trabajo en poste con camión grúa" loading="lazy"></button>
+      <button class="work" data-full="img/trabajos/trabajo-8.jpg"><img src="img/trabajos/trabajo-8-sm.jpg" alt="Tablero eléctrico armado" loading="lazy"></button>
+      <button class="work" data-full="img/trabajos/trabajo-9.jpg"><img src="img/trabajos/trabajo-9-sm.jpg" alt="Foco y cámara de seguridad instalados en poste" loading="lazy"></button>
+      <button class="work tall" data-full="img/trabajos/trabajo-7.jpg"><img src="img/trabajos/trabajo-7-sm.jpg" alt="Técnico en poste instalando transformador" loading="lazy"></button>
+      <button class="work tall" data-full="img/trabajos/trabajo-11.jpg"><img src="img/trabajos/trabajo-11-sm.jpg" alt="Electricista trabajando en techo de local comercial" loading="lazy"></button>
+      <button class="work" data-full="img/trabajos/trabajo-3.jpg"><img src="img/trabajos/trabajo-3-sm.jpg" alt="Empalme y medidor en muro" loading="lazy"></button>
+      <button class="work tall" data-full="img/trabajos/trabajo-10.jpg"><img src="img/trabajos/trabajo-10-sm.jpg" alt="Montaje de tablero eléctrico en interior" loading="lazy"></button>
+      <button class="work" data-full="img/trabajos/trabajo-2.jpg"><img src="img/trabajos/trabajo-2-sm.jpg" alt="Poste de tendido eléctrico" loading="lazy"></button>
+      <button class="work" data-full="img/trabajos/trabajo-5.jpg"><img src="img/trabajos/trabajo-5-sm.jpg" alt="Poste con empalme en terreno rural" loading="lazy"></button>
+      <button class="work tall" data-full="img/trabajos/trabajo-1.jpg"><img src="img/trabajos/trabajo-1-sm.jpg" alt="Materiales de ferretería eléctrica para tendido" loading="lazy"></button>
+      <button class="work" data-full="img/trabajos/trabajo-6.jpg"><img src="img/trabajos/trabajo-6-sm.jpg" alt="Trabajo nocturno de emergencia en poste" loading="lazy"></button>
+    </div>
+
+    <div class="tools" data-aos="fade-up">
+      <div class="tools-header">
+        <h3><i class="fa-solid fa-screwdriver-wrench me-2"></i>Equipos certificados</h3>
+        <p>Instrumentación de última generación para mediciones y certificaciones.</p>
+      </div>
+      <div class="tools-strip">
+        <img src="img/1.png" alt="Instrumento de medición 1" loading="lazy">
+        <img src="img/2.png" alt="Instrumento de medición 2" loading="lazy">
+        <img src="img/3.png" alt="Instrumento de medición 3" loading="lazy">
+        <img src="img/4.png" alt="Instrumento de medición 4" loading="lazy">
+        <img src="img/5.png" alt="Instrumento de medición 5" loading="lazy">
+        <img src="img/6.png" alt="Instrumento de medición 6" loading="lazy">
+        <img src="img/7.png" alt="Instrumento de medición 7" loading="lazy">
+        <img src="img/8.png" alt="Instrumento de medición 8" loading="lazy">
+        <img src="img/10.png" alt="Instrumento de medición 9" loading="lazy">
+        <img src="img/11.png" alt="Instrumento de medición 10" loading="lazy">
+        <img src="img/12.png" alt="Instrumento de medición 11" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BENEFICIOS ============ -->
+<section id="beneficios" class="section benefits-section">
+  <div class="container">
+    <div class="section-header section-header-dark" data-aos="fade-up">
+      <span class="section-kicker">Por qué nosotros</span>
+      <h2 class="section-title">¿Por Qué Elegir Elecsol?</h2>
+      <p class="section-subtitle">Calidad, seguridad y profesionalismo en cada proyecto</p>
     </div>
     <div class="row g-4">
-      <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
         <div class="benefit-card">
-          <div class="benefit-icon">
-            <i class="fa-solid fa-user-shield"></i>
-          </div>
-          <h4>Profesionales Certificados</h4>
+          <span class="benefit-icon"><i class="fa-solid fa-user-shield"></i></span>
+          <h3>Profesionales Certificados</h3>
           <p>Equipo altamente capacitado con certificación SEC y años de experiencia en el rubro eléctrico.</p>
         </div>
       </div>
-      <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
         <div class="benefit-card">
-          <div class="benefit-icon">
-            <i class="fa-solid fa-toolbox"></i>
-          </div>
-          <h4>Equipos de Última Generación</h4>
+          <span class="benefit-icon"><i class="fa-solid fa-toolbox"></i></span>
+          <h3>Equipos de Última Generación</h3>
           <p>Utilizamos instrumentación certificada y tecnología de punta para garantizar trabajos de calidad.</p>
         </div>
       </div>
-      <div class="col-md-4" data-aos="flip-left" data-aos-delay="300">
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
         <div class="benefit-card">
-          <div class="benefit-icon">
-            <i class="fa-solid fa-hand-holding-dollar"></i>
-          </div>
-          <h4>Precios Competitivos</h4>
+          <span class="benefit-icon"><i class="fa-solid fa-hand-holding-dollar"></i></span>
+          <h3>Precios Competitivos</h3>
           <p>Cotizaciones transparentes y precios justos sin comprometer la calidad del servicio.</p>
         </div>
       </div>
@@ -269,288 +287,89 @@
   </div>
 </section>
 
-<!-- Carrousel Equipos y Proyectos -->
-<section class="gallery-section py-5">
+<!-- ============ CONTACTO ============ -->
+<section id="contacto" class="section">
   <div class="container">
-    <div class="section-header text-center mb-5" data-aos="fade-up">
-      <h2 class="section-title">Equipos Certificados y Proyectos</h2>
-      <p class="section-subtitle">Instrumentación de última generación y trabajos realizados con excelencia</p>
-      <div class="title-divider"></div>
-    </div>
-    
-    <div id="carouselExampleControls" class="carousel slide carousel-modern" data-bs-ride="carousel" data-aos="zoom-in">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row g-4">
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/1.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 1">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/2.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 2">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/3.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 3">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/4.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 4">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-4">
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/5.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 5">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/6.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 6">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/7.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 7">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/8.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 8">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-4">
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/4.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 9">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/10.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 10">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/11.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 11">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/12.png" class="d-block w-100 rounded shadow" alt="Equipo certificado 12">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-4">
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo1.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 1">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo2.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 2">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo3.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 3">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo4.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 4">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-4">
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo5.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 5">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo6.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 6">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo7.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 7">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo8.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 8">
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row g-4">
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo9.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 9">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo10.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 10">
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="gallery-item">
-                <img src="img/trabajo11.jpeg" class="d-block w-100 rounded shadow" alt="Proyecto realizado 11">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- Contacto -->
-<section id="contacto" class="contact-section py-5">
-  <div class="container">
-    <div class="section-header text-center mb-5" data-aos="fade-up">
+    <div class="section-header" data-aos="fade-up">
+      <span class="section-kicker">Contacto</span>
       <h2 class="section-title">Contáctanos</h2>
       <p class="section-subtitle">Estamos aquí para ayudarte con tus proyectos eléctricos</p>
-      <div class="title-divider"></div>
     </div>
-    
-    <div class="row g-5">
-      <div class="col-lg-6" data-aos="fade-right">
-        <div class="contact-info-wrapper">
-          <h3 class="mb-4">¿Necesitas ayuda?</h3>
-          <p class="mb-4">Completa el formulario y nos pondremos en contacto contigo lo antes posible. También puedes comunicarte directamente por WhatsApp para emergencias.</p>
-          
-          <div class="contact-details">
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fa-solid fa-phone"></i>
-              </div>
-              <div>
-                <h5>Teléfono</h5>
-                <p>+569 94902336</p>
-              </div>
-            </div>
-            
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div>
-                <h5>Email</h5>
-                <p>feernandoarias@gmail.com</p>
-              </div>
-            </div>
-            
-            <div class="contact-item">
-              <div class="contact-icon">
-                <i class="fa-solid fa-clock"></i>
-              </div>
-              <div>
-                <h5>Horario</h5>
-                <p>Lun - Vie: 8:00 - 18:00<br>Emergencias: 24/7</p>
-              </div>
-            </div>
-          </div>
+
+    <div class="row g-4 g-lg-5 align-items-stretch">
+      <div class="col-lg-5" data-aos="fade-up">
+        <div class="contact-panel">
+          <h3>¿Necesitas ayuda?</h3>
+          <p>Completa el formulario y nos pondremos en contacto contigo lo antes posible. Para emergencias, escríbenos directo por WhatsApp.</p>
+
+          <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,quisiera%20consultar%20sobre:" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg w-100 mb-4">
+            <i class="fa-brands fa-whatsapp me-2"></i>Escribir por WhatsApp
+          </a>
+
+          <ul class="contact-details">
+            <li><span class="contact-icon"><i class="fa-solid fa-phone"></i></span><div><strong>Teléfono</strong><a href="tel:+56994902336">+569 9490 2336</a></div></li>
+            <li><span class="contact-icon"><i class="fa-solid fa-envelope"></i></span><div><strong>Email</strong><a href="mailto:feernandoarias@gmail.com">feernandoarias@gmail.com</a></div></li>
+            <li><span class="contact-icon"><i class="fa-solid fa-clock"></i></span><div><strong>Horario</strong><span>Lun - Vie: 8:00 - 18:00 · Emergencias: 24/7</span></div></li>
+          </ul>
         </div>
       </div>
-      
-      <div class="col-lg-6" data-aos="fade-left">
+
+      <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
         <form action="https://formsubmit.co/faelecsol@gmail.com" method="POST" class="contact-form">
-          <div class="mb-4">
-            <label for="nombre" class="form-label">Nombre Completo</label>
-            <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Escribe tu nombre completo" required>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre completo</label>
+              <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="col-md-6">
+              <label for="phone" class="form-label">Teléfono de contacto</label>
+              <input type="tel" name="phone" class="form-control" id="phone" placeholder="+569..." required>
+            </div>
+            <div class="col-12">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" name="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+            <div class="col-12">
+              <label for="comments" class="form-label">Mensaje</label>
+              <textarea name="comments" class="form-control" id="comments" rows="5" placeholder="Cuéntanos sobre tu proyecto o consulta..." required></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-gold btn-lg w-100"><i class="fa-solid fa-paper-plane me-2"></i>Enviar mensaje</button>
+            </div>
           </div>
-
-          <div class="mb-4">
-            <label for="phone" class="form-label">Teléfono de Contacto</label>
-            <input type="tel" name="phone" class="form-control" id="phone" placeholder="+569..." required>
-          </div>
-
-          <div class="mb-4">
-            <label for="email" class="form-label">Correo Electrónico</label>
-            <input type="email" name="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com" required>
-          </div>
-
-          <div class="mb-4">
-            <label for="comments" class="form-label">Mensaje</label>
-            <textarea name="comments" class="form-control" id="comments" rows="5" placeholder="Cuéntanos sobre tu proyecto o consulta..." required></textarea>
-          </div>
-          
-          <button type="submit" class="btn btn-primary btn-lg w-100">
-            <i class="fa-solid fa-paper-plane me-2"></i>Enviar Mensaje
-          </button>
         </form>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Whatsapp flotante-->
-<div id="whatsapp" data-aos="zoom-in" data-aos-delay="500">
-  <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,quisiera%20consultar%20sobre:" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
-    <div class="whatsapp-pulse">
-      <i class="fa-brands fa-whatsapp"></i>
-    </div>
-  </a>
+<!-- WhatsApp flotante -->
+<a id="whatsapp" href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,quisiera%20consultar%20sobre:" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- Visor de fotos -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" aria-label="Cerrar"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-nav prev" aria-label="Foto anterior"><i class="fa-solid fa-chevron-left"></i></button>
+  <img src="" alt="">
+  <button class="lightbox-nav next" aria-label="Foto siguiente"><i class="fa-solid fa-chevron-right"></i></button>
 </div>
 
-<!-- Footer -->
+<!-- ============ FOOTER ============ -->
 <footer class="footer">
   <div class="container py-5">
     <div class="row g-4">
       <div class="col-lg-4 col-md-6">
-        <div class="footer-brand mb-4">
-          <i class="fa-solid fa-bolt me-2"></i>
-          <span>ELECSOL</span>
-        </div>
+        <div class="footer-brand mb-3"><i class="fa-solid fa-bolt me-2"></i><span>ELECSOL</span></div>
         <p class="footer-text mb-4">Tu socio confiable en soluciones eléctricas y energía solar. Más de 10 años brindando servicios profesionales certificados.</p>
         <div class="social-links">
-          <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,quisiera%20consultar%20sobre:" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-            <i class="fa-brands fa-whatsapp"></i>
-          </a>
-          <a href="mailto:feernandoarias@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
-            <i class="fa-solid fa-envelope"></i>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-            <i class="fa-brands fa-facebook"></i>
-          </a>
+          <a href="https://api.whatsapp.com/send?phone=+56994902336&text=Hola%20,quisiera%20consultar%20sobre:" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="mailto:feernandoarias@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
         </div>
       </div>
-      
       <div class="col-lg-2 col-md-6">
-        <h5 class="footer-title">Servicios</h5>
+        <h4 class="footer-title">Servicios</h4>
         <ul class="footer-links">
           <li><a href="#servicio">Instalaciones</a></li>
           <li><a href="#servicio">Proyectos</a></li>
@@ -558,53 +377,34 @@
           <li><a href="#servicio">Certificaciones</a></li>
         </ul>
       </div>
-      
       <div class="col-lg-3 col-md-6">
-        <h5 class="footer-title">Empresa</h5>
+        <h4 class="footer-title">Empresa</h4>
         <ul class="footer-links">
-          <li><a href="#nav">Inicio</a></li>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#trabajos">Trabajos realizados</a></li>
           <li><a href="#beneficios">Nosotros</a></li>
           <li><a href="#contacto">Contacto</a></li>
-          <li><a href="#">Emergencias 24/7</a></li>
         </ul>
       </div>
-      
       <div class="col-lg-3 col-md-6">
-        <h5 class="footer-title">Contacto</h5>
+        <h4 class="footer-title">Contacto</h4>
         <ul class="footer-contact">
-          <li>
-            <i class="fa-solid fa-phone me-2"></i>
-            <span>+569 94902336</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-envelope me-2"></i>
-            <span>feernandoarias@gmail.com</span>
-          </li>
-          <li>
-            <i class="fa-solid fa-clock me-2"></i>
-            <span>Lun-Vie: 8:00-18:00</span>
-          </li>
+          <li><i class="fa-solid fa-phone me-2"></i><a href="tel:+56994902336">+569 9490 2336</a></li>
+          <li><i class="fa-solid fa-envelope me-2"></i><a href="mailto:feernandoarias@gmail.com">feernandoarias@gmail.com</a></li>
+          <li><i class="fa-solid fa-clock me-2"></i><span>Lun-Vie: 8:00-18:00 · Emergencias 24/7</span></li>
         </ul>
       </div>
     </div>
-    
     <hr class="footer-divider">
-    
-    <div class="row">
-      <div class="col-md-6 text-center text-md-start">
-        <p class="footer-copyright mb-0">&copy; 2025 Elecsol. Todos los derechos reservados.</p>
-      </div>
-      <div class="col-md-6 text-center text-md-end">
-        <p class="footer-copyright mb-0">Certificado SEC | Profesionales Calificados</p>
-      </div>
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-2 text-center">
+      <p class="footer-copyright mb-0">&copy; <span id="year">2026</span> Elecsol. Todos los derechos reservados.</p>
+      <p class="footer-copyright mb-0">Certificado SEC | Profesionales calificados</p>
     </div>
   </div>
 </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/index.js"></script>
 </body>
-
 </html>
-
